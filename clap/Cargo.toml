@@ -1,0 +1,9 @@
+[workspace]
+members=[
+    "basic",
+    "basicmeta",
+    "typedvalue",
+    "styledargs",
+    "ymlcli",
+    "subdemo"
+]

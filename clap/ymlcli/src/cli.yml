@@ -1,0 +1,21 @@
+name: ymldemo
+version: "1.1"
+author: Chaos Mo
+about: Demo App for Yaml Cli
+args: 
+    - config:
+        short: c
+        long: config
+        value_name: FILE
+        help: demo arg for cmd
+        takes_value: true
+subcommands:
+  - install: 
+        about: controls install features
+        version: "1.2"
+        author: Chaos Mo
+        args: 
+            - force: 
+                short: f
+                long: force
+                help: force to install features
